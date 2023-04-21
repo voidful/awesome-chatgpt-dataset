@@ -1,6 +1,7 @@
 # awesome-chatgpt-dataset
+![Alt Text](https://github.com/voidful/awesome-chatgpt-dataset/raw/main/A%20cat%20%20to%20Unlock%20the%20Power%20of%20LLM%20Explore%20These%20Datasets%20to%20Train%20Your%20Own%20ChatGPT!.gif)    
 
-Unlock the Power of LLM: Explore These Datasets to Train Your Own ChatGPT!
+## Unlock the Power of LLM: Explore These Datasets to Train Your Own ChatGPT!
 
 | Dataset Name                                                                                                   | Size | Languages                                                          | Task Tags     | Generation Method     | Source                                                                                      | Cost  | License                            |   |
 | -------------------------------------------------------------------------------------------------------------- | ---- | ------------------------------------------------------------------ | ------------- | --------------------- | ------------------------------------------------------------------------------------------- | ----- | ---------------------------------- | - |
