@@ -6,7 +6,7 @@
 
 | Dataset Name | Size | Languages | Source | License |
 |---|---|---|---|---|
-| [TheoremQA](wenhu/TheoremQA) | 1K | English | We annotated 800 QA pairs covering 350+ theorems spanning across Math, EE&CS, Physics and Finance. | mit |
+| [TheoremQA](https://huggingface.co/datasets/wenhu/TheoremQA) | 1K | English | We annotated 800 QA pairs covering 350+ theorems spanning across Math, EE&CS, Physics and Finance. | mit |
 | [lima](https://huggingface.co/datasets/GAIR/lima) | 1K | English | LIMA: Less Is More for Alignment | CC BY-NC-SA |
 | [im-feeling-curious](https://huggingface.co/datasets/xiyuez/im-feeling-curious) | 3K | English | This public dataset is an extract from Google's "i'm feeling curious" feature. To learn more about this feature, search for "i'm feeling curious" on Google. | - |
 | [Puffin](https://huggingface.co/datasets/LDJnr/Puffin) | 3K | English | Puffin dataset. Exactly 3,000 examples with each response created using GPT-4. | - |
