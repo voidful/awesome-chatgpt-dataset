@@ -13,4 +13,4 @@ for i in dataset:
             chat_item.append({"role": "assistant", "content": j['value']})
     chat_items.append({"chat": chat_item})
 
-nlp2.write_jsonl(chat_items, "./WizardLM_evol_instruct_V2_196k_chat.jsonl")
+nlp2.write_jsonl(chat_items, "wizardLM_evol_instruct_V2_196k_chat.jsonl")
