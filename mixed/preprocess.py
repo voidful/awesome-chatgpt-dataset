@@ -3,6 +3,7 @@ import nlp2
 
 data_list = []
 for dataset_name in nlp2.get_files_from_dir('./dataset', match='jsonl'):
+    print(dataset_name)
     data_list.append(load_dataset("json", data_files=dataset_name)['train'])
 
 ds = concatenate_datasets(data_list)
@@ -27,4 +28,4 @@ uniques = set(ds.unique("hash"))
 ds_filter = ds.filter(check_uniques, fn_kwargs={"uniques": uniques})
 print(ds_filter)
 
-# ds_filter.push_to_hub('voidful/mixed_chat')
+ds_filter.push_to_hub('voidful/mixed_chat')
