@@ -13,4 +13,4 @@ for i in dataset:
             chat_item.append({"role": "assistant", "content": j['value']})
     chat_items.append({"chat": chat_item})
 
-nlp2.write_jsonl(chat_items, "./opencerebrum-sft.jsonl")
+nlp2.write_jsonl(chat_items, "./opencerebrum_sft_chat.jsonl")
