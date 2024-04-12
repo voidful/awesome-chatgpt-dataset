@@ -7,7 +7,9 @@ chat_items = []
 for i in dataset:
     chat_item = []
     for j in i['conversations']:
-        if j['from'] == 'human':
+        if j['from'] == 'system':
+            chat_item.append({"role": "system", "content": j['value']})
+        elif j['from'] == 'human':
             chat_item.append({"role": "user", "content": j['value']})
         else:
             chat_item.append({"role": "assistant", "content": j['value']})

@@ -28,4 +28,4 @@ uniques = set(ds.unique("hash"))
 ds_filter = ds.filter(check_uniques, fn_kwargs={"uniques": uniques})
 print(ds_filter)
 
-ds_filter.push_to_hub('voidful/mixed_chat')
+ds_filter.push_to_hub('voidful/mixed_inst_multi_chat', private=True)

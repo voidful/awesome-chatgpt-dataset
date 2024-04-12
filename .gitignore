@@ -170,3 +170,4 @@ cython_debug/
 
 *.jsonl
 *.json
+/mixed/dataset/test_ds.py
