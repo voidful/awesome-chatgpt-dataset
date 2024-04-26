@@ -3,7 +3,17 @@
 
 ## Unlock the Power of LLM: Explore These Datasets to Train Your Own ChatGPT!
 
+## Select your own mixed dataset
+> ```bash
+> git clone https://github.com/voidful/awesome-chatgpt-dataset.git
+> cd awesome-chatgpt-dataset/mixed/dataset
+> ```
+> pick whatever dataset you want to use, then merge and upload:
+> ```bash
+> python preprocess.py your_dataset_name_to_HuggingFaceHub
+> ```
 
+## Dataset Detail
 | Dataset Name | Size | Languages | Source | License |
 |---|---|---|---|---|
 | [TheoremQA](https://huggingface.co/datasets/wenhu/TheoremQA) | 1K | English | We annotated 800 QA pairs covering 350+ theorems spanning across Math, EE&CS, Physics and Finance. | mit |
