@@ -13,4 +13,4 @@ for i in dataset:
     ]
     chat_items.append({"chat": chat})
 
-nlp2.write_jsonl(chat_items, "./alpaca_auto_cot_chat.jsonl")
+nlp2.write_jsonl(chat_items, "./alpaca_cot_chat.jsonl")
