@@ -115,6 +115,7 @@
 | [Open‑PerfectBlend](https://huggingface.co/datasets/mlabonne/open-perfectblend) | 1.42M | English | Diverse, deduped chat blend for general SFT. | apache-2.0 |
 | [Firefly](https://huggingface.co/datasets/YeungNLP/firefly-train-1.1M) | 1.6M | Chinese | 1.6M+ Chinese instructions across 23 NLP tasks. | - |
 | [The Tome](https://huggingface.co/datasets/arcee-ai/The-Tome) | 1.75M | English | Large cleaned instruction dataset curated by Arcee. | mit |
+| [The Chat Archive](https://thechatarchive.com) | 2.69M | Multi-lingual | Free searchable mirror of real human–AI conversations from WildChat‑4.8M, LMArena (55K, 140K, Search Arena), HH‑RLHF, OASST2, HelpSteer2, PRISM and ShareLM; browse by model, language and source, with per-record licenses. | per source |
 | [NaturalReasoning](https://huggingface.co/datasets/facebook/natural_reasoning) | 2.8M | English | 2.8M challenging reasoning questions (decontaminated). | cc-by-nc-4.0 |
 | [LaMini‑Instruction](https://huggingface.co/datasets/MBZUAI/LaMini-instruction) | 3.0M | English | ~2.58M–3M instruction–response pairs (GPT‑3.5). | cc-by-nc-4.0 |
 | [OpenOrca (full)](https://huggingface.co/datasets/Open-Orca/OpenOrca) | 3.0M | English | GPT‑4/3.5 augmented FLAN collection. | - |
